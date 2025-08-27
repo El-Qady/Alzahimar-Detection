@@ -1,0 +1,8 @@
+Flask
+tensorflow
+numpy
+pillow
+gdown
+gunicorn
+os
+Image
