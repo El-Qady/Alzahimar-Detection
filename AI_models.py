@@ -5,7 +5,7 @@ import os
 import gdown
 CLASSES_NAMES = ['Mild Demented', 'Moderate Demented', 'Non Demented', 'Very MildDemented']  # Assumes this is a list or array of class names
 MODEL_PATH = "./Alzheimer_Model_binary.h5"
-url='https://drive.google.com/file/d/1En9_ggZQvhsVk2a6UgUy3J4ah0QhE4HJ/view?usp=sharing'
+url = "https://drive.google.com/uc?id=1En9_ggZQvhsVk2a6UgUy3J4ah0QhE4HJ"
 if not os.path.exists(MODEL_PATH):
     gdown.download(url, MODEL_PATH, quiet=False)
 MODEL = tf.keras.models.load_model(MODEL_PATH)
