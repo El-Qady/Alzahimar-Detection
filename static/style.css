@@ -1,0 +1,66 @@
+.ico{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.info{
+    display: flex;
+}
+
+h2{
+    font-size: 105rem;
+    /* margin-top: ; */
+}
+
+.name{
+    position: relative;
+    right: 6vw;
+}
+
+
+.about{
+    color: darkred;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 20px;
+}
+.about:hover{
+    background-color: darkred;
+    color: white;
+}
+
+form{
+    text-align: 2vh;
+    display: flex;
+    border: solid 1px;
+    padding: 5vh;
+    border-radius: 20px;
+}
+
+.upimg img{
+    width: 60vh;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+
+.class-type{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.adv{
+    border-radius: 20px;
+    text-align: left;
+    padding:10px;
+    border: 1px solid black;
+}
+
+span{
+    font-weight: bolder;
+    color:darkred;
+    /* font-style: italic; */
+    display: inline-block;
+    text-align: center;
+}
