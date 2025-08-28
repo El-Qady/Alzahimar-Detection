@@ -76,7 +76,7 @@ The system is built using a **Convolutional Neural Network (CNN)** for accurate 
 
 4. **Run Flask application**  
    ```bash
-   python app.py
+   python back.py
    ```
 
 5. Open your browser and go to:  
